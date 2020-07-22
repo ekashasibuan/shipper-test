@@ -1,0 +1,83 @@
+@import "~bulma/bulma.sass";
+
+.content-container {
+  background-color: #f4f4f4;
+}
+.footer {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  display: flex;
+  padding: 1.5rem 1.5rem;
+  line-height: 1.5rem;
+  a {
+    border-bottom: 1px solid;
+    color: black;
+  }
+  a:hover {
+    color: black;
+  }
+}
+.content-left {
+  background-color: white;
+  padding-top: 50px;
+  padding-right: 100px;
+}
+.sides-li {
+  padding-bottom: 30px;
+}
+
+.heading-title {
+  color: #ff4646;
+  font-weight: bold;
+  font-size: 24px;
+}
+.heading-subtitle {
+  font-size: 14px;
+}
+.main-content {
+  flex: 1;
+  background-color: #f4f4f4;
+}
+.level-right {
+  align-items: unset;
+}
+.drivers {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.section-driver-header {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.section-driver-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.section-driver {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.driver-info-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7c7d7e;
+}
+.driver-info-data {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.more-icon-section {
+  text-align: end;
+  padding-top: 5px;
+}
